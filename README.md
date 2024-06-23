@@ -1,0 +1,23 @@
+graph TD;
+    A[Início] --> B[Coleta de Amostras];
+    B --> C[Identificação e Catalogação];
+    C --> D[Extração de DNA/RNA];
+    D --> E[Quantificação e Controle de Qualidade];
+    E --> F[Preparação de Bibliotecas];
+    F --> G[Sequenciamento];
+    G --> H[Análise Bioinformática];
+    H --> I[Análise Taxonômica];
+    I --> J[Filtragem e Análise de Variantes];
+    J --> K[Análise Filogenética];
+    K --> L[Interpretação de Resultados];
+    L --> M[Discussão e Conclusão];
+    M --> N[Fim];
+
+    B --> O[Acondicionamento e Transporte];
+    D --> P[Armazenamento de Amostras];
+    F --> Q[Preparação de Controles];
+    G --> R[Controle de Qualidade de Dados];
+    H --> S[Montagem de Genomas];
+    I --> T[Identificação de Patógenos];
+    J --> U[Identificação de Variantes];
+    K --> V[Construção de Árvores Filogenéticas];
